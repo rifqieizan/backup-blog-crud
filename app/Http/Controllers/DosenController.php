@@ -15,6 +15,7 @@ class DosenController extends Controller
 		foreach ($dosen as $value) 
 		{	
 			dd($value);
+			
 			# code...
 		}
 	}
