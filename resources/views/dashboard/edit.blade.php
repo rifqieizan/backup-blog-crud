@@ -1,6 +1,9 @@
 @extends('templates.layout')
 
 @section ('content')
+
+<p> Form Edit </p>
+
 <form action="{{url('update/'.$id)}}" method="post">
 	{{ csrf_field() }}
 	<input type="text" name="nama" value="{{ $data->nama}}" placeholder="nama">
